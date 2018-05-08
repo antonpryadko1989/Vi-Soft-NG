@@ -1,0 +1,56 @@
+0) Security 
+	- HTTPS 
+	- JWT
+	- roles/permissions
+	
+1) User module
+	- Login/Registration
+		-- DDOS resistance
+		-- Authentication
+			--- system
+			--- google
+			--- F2A/email 
+			--- Capture 
+			--- email verification on registration
+		-- Authorization
+		-- Term of use
+	- user's data storage
+	- user's data modification 
+	
+2) Project module
+	- Create new project
+	- Create new task & attach to the project
+	- Attach a document to a last task in the branch of the project tree (dependent on 3)
+	- Detach document from the task (dependent on 3)
+	- Transfer document between tasks (dependent on 3)
+	- Bring project tree to the client (JSON object with tasks and list of attached documents) (dependent on 3)
+	
+3) Documents management module
+	- Upload documents to the selected folder
+	- Download the selected document
+	- Download all project's documentation (with project's file system in ZIP format)
+		
+4) Excel module
+	- build templates for excel reports
+	- service for building & download XLS 
+	
+5) PDF module
+	- build templates for PDF docs
+	- service for building & download PDF
+
+6) Send Email service
+
+7) Surveying management module
+
+8) Labs management module
+	- Lab definition service
+	- Send Lab order service
+	- Receive Lab order service
+
+9) Preliminary control
+
+10) Drawings management module
+
+11) Reports management module	
+
+12) Layering works management module
